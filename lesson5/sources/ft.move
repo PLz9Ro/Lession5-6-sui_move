@@ -85,6 +85,5 @@ module lesson5::FT_TOKEN {
         public entry fun get_icon_url<FT_TOKEN>( coin: &CoinMetadata<FT_TOKEN>): Option<Url> {
         coin.icon_url
             }
-            // các hàm get em lý từ git của sui về và làm theo ví dụ luôn ạ 
 
 }
